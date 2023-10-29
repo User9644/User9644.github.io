@@ -1,0 +1,17 @@
+html{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.body{
+    display: flex;
+    display: -webkit-flex;
+    margin: 0px;
+    width: 100%;
+}
+.leftMenu{
+    width: 200px;
+    border-right: 1px;
+    border-color: rgb(150, 150, 150);
+    border-style: solid;
+}
