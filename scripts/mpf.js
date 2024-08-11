@@ -1,7 +1,13 @@
-// mpf.js
-// More Prototype Function
-// v1.0
+/**
+ * @file mpf.js
+ * @link https://user9644.github.io/scripts/mpf.js
+ * @description More Prototype Functions
+ * @version v1.0
+ */
 
+/**
+ * @returns {any}
+ */
 Array.prototype.getRandom = function(){
     const random = Math.floor(Math.random() * this.length);
     return this[random];
