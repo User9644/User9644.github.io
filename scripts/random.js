@@ -1,7 +1,7 @@
 /**
  * @file random.js
  * @link https://user9644.github.io/scripts/random.js
- * @description Easier Random Number Generator
+ * @description Easier Random Numbers
  * @version v1.0
  */
 class getRandom{

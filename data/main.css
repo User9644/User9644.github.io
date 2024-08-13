@@ -1,5 +1,5 @@
 /* var */
-:root{
+/*:root{
     --color: white;
     --backgroundColor: #242424;
 }
@@ -28,7 +28,8 @@ a:hover{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF05;
+    background-color: #282828;
+    position: sticky;
 }
 #nav li{
     float: left;
@@ -44,3 +45,64 @@ a:hover{
 #nav li a:hover {
     background-color: #00000086;
 }
+
+/* Bottom */
+#bottom{
+    position: fixed;
+    bottom: 0;
+
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+#bottom li{
+    margin: auto;
+}
+#bottom li a {
+    display: block;
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: small;
+    color: #7f7f7f;
+}
+#bottom li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+#main{
+    margin: 12px;
+}
+
+/* Alert */
+.alert {
+    padding: 20px;
+    background-color: #727272;
+    color: white;
+    margin-bottom: 15px;
+
+    position: absolute;
+    top: 25vh;
+    width: 50%;
+    margin-left: 25%;
+}
+.alert .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.alert .closebtn:hover {
+    color: black;
+} 

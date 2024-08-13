@@ -1,6 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => loadModule(
-    'mpf'
-));
+setColorThemes();
+setNormalTheme("dark");
 
-//document.documentElement.style.setProperty("--backgroundColor", "white");
-//document.documentElement.style.setProperty("--color", "black");
+class Settings {
+    static storageKeys = ['theme'];
+
+    static showSettings = function() {
+        document.getElementById('settings').style.display = 'block';
+    }
+
+    static changeTheme = function() {
+        const theme = document.getElementById('themeSelector').value;
+    
+        setUserTheme(theme);
+    }
+
+    static resetSettings = function() {
+        //localStorage.clear();
+
+        this.storageKeys.forEach(key => {
+            localStorage.removeItem(key);
+        });
+    }
+}
