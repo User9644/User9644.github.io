@@ -5,25 +5,28 @@
 }
 
 /* Main */
-html{
+html {
     background-color: var(--backgroundColor);
     color: var(--color);
     font-family: sans-serif;
 }
-body{
+
+body {
     margin: 0px;
     width: 100%;
 }
-a{
+
+a {
     color: var(--color);
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #5050FF;
 }
 
 /* Nav */
-#nav{
+#nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,9 +34,11 @@ a:hover{
     background-color: #282828;
     position: sticky;
 }
-#nav li{
+
+#nav li {
     float: left;
 }
+
 #nav li a {
     display: block;
     color: white;
@@ -42,12 +47,13 @@ a:hover{
     font-family: Roboto, sans-serif;
     font-weight: bold;
 }
+
 #nav li a:hover {
     background-color: #00000086;
 }
 
 /* Bottom */
-#bottom{
+#bottom {
     position: fixed;
     bottom: 0;
 
@@ -60,9 +66,11 @@ a:hover{
     display: flex;
     justify-content: center;
 }
-#bottom li{
+
+#bottom li {
     margin: auto;
 }
+
 #bottom li a {
     display: block;
     text-align: center;
@@ -72,12 +80,13 @@ a:hover{
     font-size: small;
     color: #7f7f7f;
 }
+
 #bottom li a:hover {
     text-decoration: underline;
 }
 
 /* Main */
-#main{
+#main {
     margin: 12px;
 }
 
@@ -93,6 +102,7 @@ a:hover{
     width: 50%;
     margin-left: 25%;
 }
+
 .alert .closebtn {
     margin-left: 15px;
     color: white;
@@ -103,6 +113,7 @@ a:hover{
     cursor: pointer;
     transition: 0.3s;
 }
+
 .alert .closebtn:hover {
     color: black;
-} 
+}
