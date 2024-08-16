@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title -->
     <title>User9644</title>
 
     <!-- Description -->
-    <meta name="description" content="User9644 Website">
+    <meta name="description" content="User9644 Website" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/data/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/data/favicon.ico" type="image/x-icon" />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/data/main.css">
+    <link rel="stylesheet" href="/data/main.css" />
 
     <!-- JavaScript Modules -->
     <script src="/scripts/themes.js" type="text/javascript"></script>
@@ -22,41 +23,41 @@
     <!-- JavaScript -->
     <script src="/data/main.js" type="text/javascript"></script>
 </head>
+
 <body>
     <!-- Nav Bar -->
     <ul id="nav">
         <li><a href="/">HOME</a></li>
         <li><a href="/flaggen-quiz">FLAGGEN QUIZ</a></li>
     </ul>
-    
+
     <!-- Main Body -->
     <div id="main">
-
         <!--  -->
-
     </div>
-    
+
     <!-- Footer -->
     <ul id="bottom">
         <li><a href="javascript:Settings.showSettings()">Settings</a></li>
     </ul>
 
     <!-- Settings -->
-    <div style="display: none;" id="settings" class="alert">
+    <div style="display: none" id="settings" class="alert">
         <!-- Close Button -->
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 
         <!-- Color Theme -->
-        Color Theme: 
+        Color Theme:
         <select id="themeSelector" onchange="Settings.changeTheme()">
             <option value="bright">Bright</option>
             <option value="dark">Dark</option>
             <option value="ugly">?</option>
-        </select><br>
+        </select><br />
 
         <!-- Reset Settings -->
-        <br>
+        <br />
         <button onclick="Settings.resetSettings()">Reset All</button>
     </div>
 </body>
+
 </html>
