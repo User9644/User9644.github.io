@@ -1,4 +1,4 @@
-setColorThemes();
+setColorThemes(); // no args for default themes
 setNormalTheme("dark");
 
 class Settings {
